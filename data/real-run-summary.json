@@ -1,0 +1,41 @@
+{
+  "sample_count": 1,
+  "date": "2026-10-21",
+  "timezone": "UTC+08:00",
+  "source_update_local_second_precision": "18:22:08",
+  "detected_local": "18:22:09.372840",
+  "execution_started_local": "18:22:09.388348",
+  "execution_completed_local": "18:23:03.790889",
+  "elapsed_seconds": 54.402,
+  "source_update_to_completed_seconds_approx": 55.8,
+  "status": "SCHEDULED",
+  "saved": true,
+  "scheduled_time": "2026-10-21 23:30",
+  "time_entry_tested": true,
+  "business_evidence": "将于 2026-10-21 23:30 发布",
+  "desktop_tool_calls": 37,
+  "desktop_tool_seconds_sum": 50.877,
+  "snapshot_calls": 20,
+  "snapshot_seconds_sum": 46.813,
+  "jev_decisions": [
+    {
+      "expected": "paste_once",
+      "choice": "paste_once",
+      "seconds": 1.037
+    },
+    {
+      "expected": "scroll_page",
+      "choice": "scroll_page",
+      "seconds": 1.547
+    }
+  ],
+  "jev_seconds_sum": 2.584,
+  "clipboard_cache_hit": true,
+  "clipboard_cached_prepare_seconds": 0.002069,
+  "limitations": [
+    "One successful run, not a reliability estimate.",
+    "Clipboard cache hit; preparation overlapped navigation.",
+    "Saved schedule confirmed; later message delivery not measured.",
+    "No controlled attribution of speedup to Jev alone."
+  ]
+}

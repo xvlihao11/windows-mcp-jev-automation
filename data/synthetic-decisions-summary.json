@@ -1,0 +1,20 @@
+{
+  "endpoint": "https://api.typesafe.ai/v1/systemone",
+  "model_requested": "jev-1.13.0",
+  "models_returned": [
+    "jev-1.13.0"
+  ],
+  "requests": 72,
+  "responses": 72,
+  "correct": 69,
+  "errors": 0,
+  "synthetic_state_variants": 24,
+  "repeats_per_variant": 3,
+  "wrong_decisions": 3,
+  "wrong_case": "Clipboard not ready, but paste_once selected.",
+  "median_seconds": 1.086,
+  "p95_nearest_rank_seconds": 2.992,
+  "max_seconds": 4.619,
+  "desktop_actions": 0,
+  "limitation": "Synthetic state classification; not end-to-end UI success rate."
+}

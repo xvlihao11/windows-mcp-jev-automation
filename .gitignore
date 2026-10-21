@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+.local-secrets/
+*.dpapi
+*.db
+*.sqlite*
+*.log
+__pycache__/
+live-runs/
+outbox/
+screenshots/
+bin/
+node_modules/
