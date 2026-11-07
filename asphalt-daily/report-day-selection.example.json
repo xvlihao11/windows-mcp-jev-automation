@@ -1,0 +1,7 @@
+{
+  "date": "2099-01-01",
+  "kind": "weekly",
+  "send_authorized": true,
+  "scheduled_time": "2099-01-01 23:30",
+  "scope": "Only use the actual date explicitly selected by the user; weekly live routing remains guarded."
+}

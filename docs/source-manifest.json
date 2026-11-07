@@ -1,0 +1,208 @@
+{
+  "exported_on": "2026-11-08",
+  "scope": "Allowlisted workflow source only; live installation remains unchanged.",
+  "files": [
+    {
+      "path": "asphalt-daily/agent_watch.py",
+      "source_sha256": "806779350e6fec5deb20e966692514f0718e5eedfa6a55b5d9d39d0e4a672559",
+      "export_sha256": "8a87c6159ed94763ea82d6c3050e25cd3dd3dbe6ebd5969283a398a53202d1a9",
+      "adaptations": [
+        "Use DAILY_AGENT_DB instead of personal absolute database path."
+      ]
+    },
+    {
+      "path": "asphalt-daily/agent_monitor_bridge.py",
+      "source_sha256": "b64601958086fce087385635f4bc313549b2ec26d3ab70062697092d0777ae13",
+      "export_sha256": "9b4625011a47afd3150fe57598893ea360056f043f40141022d9f0e355514c09",
+      "adaptations": [
+        "Use DAILY_WORKFLOW_ROOT and server Python instead of personal paths."
+      ]
+    },
+    {
+      "path": "asphalt-daily/execution_policy.py",
+      "source_sha256": "12554523f3a7280b06d9e827eef262c15b7ecdb35681e5f78f9ac0891b774139",
+      "export_sha256": "12554523f3a7280b06d9e827eef262c15b7ecdb35681e5f78f9ac0891b774139",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/report_day_policy.py",
+      "source_sha256": "0c776b75f813bd45ee7e84c9d38a76bf304692ff48c200732625f448361a7de3",
+      "export_sha256": "0c776b75f813bd45ee7e84c9d38a76bf304692ff48c200732625f448361a7de3",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/weekly_sections.py",
+      "source_sha256": "bbec767694057a0c03d48f757dfff854855ee361c7e62f0f1cfaa5fef0f5d3ae",
+      "export_sha256": "bbec767694057a0c03d48f757dfff854855ee361c7e62f0f1cfaa5fef0f5d3ae",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/live_watch.py",
+      "source_sha256": "96df9f9cee5d3c82a7728d518055b6c09c5553d8dc56401d2f12323595855fd8",
+      "export_sha256": "467401d4aef16e36425a8dd349fd903b0998fd39c0a096a586efafb964d5db13",
+      "adaptations": [
+        "Use DAILY_RENDERER_PATH instead of personal renderer path."
+      ]
+    },
+    {
+      "path": "asphalt-daily/jev_dispatch.py",
+      "source_sha256": "c43a9a86987bf171f6d1e6b30449e81f5ce41a6f89e422ab3309e319d8812db3",
+      "export_sha256": "c43a9a86987bf171f6d1e6b30449e81f5ce41a6f89e422ab3309e319d8812db3",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/jev_worker.py",
+      "source_sha256": "88d0f52b3bc6c2454b51c01322c32de3448dc1fd2bfe61e7e6628f1f86b80710",
+      "export_sha256": "88d0f52b3bc6c2454b51c01322c32de3448dc1fd2bfe61e7e6628f1f86b80710",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/jev_secret.py",
+      "source_sha256": "7e65085f84d829eacfffa01664a0c5b88d5d2482241dbf7859ec40841cfbf44b",
+      "export_sha256": "7e65085f84d829eacfffa01664a0c5b88d5d2482241dbf7859ec40841cfbf44b",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/file_clipboard.py",
+      "source_sha256": "1b0bd67d32c1390138295f79c74792a8cecc22cd9ea3dc0810191969f59b3468",
+      "export_sha256": "1b0bd67d32c1390138295f79c74792a8cecc22cd9ea3dc0810191969f59b3468",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/render_clipboard.cjs",
+      "source_sha256": "4214731c8a3294990e9fd47a35e2f2ce79ea0358da4da8943047bacedd6109d5",
+      "export_sha256": "4214731c8a3294990e9fd47a35e2f2ce79ea0358da4da8943047bacedd6109d5",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/progress_strip.py",
+      "source_sha256": "70864e4c72acc2cdfed9fdb3fb2838953a1656cf3888c7a615e9b61f2b60bc7b",
+      "export_sha256": "70864e4c72acc2cdfed9fdb3fb2838953a1656cf3888c7a615e9b61f2b60bc7b",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/result_notify.py",
+      "source_sha256": "e078184f7d197447ce5d672ffde2f440081591569a40a9fa4ec81b897e586255",
+      "export_sha256": "e078184f7d197447ce5d672ffde2f440081591569a40a9fa4ec81b897e586255",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/ui_profiles.py",
+      "source_sha256": "8b19912e220cecb1036d1fbcd4f9a0291e441e781918ee87dfc4362888fd4854",
+      "export_sha256": "8b19912e220cecb1036d1fbcd4f9a0291e441e781918ee87dfc4362888fd4854",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/test_agent_watch.py",
+      "source_sha256": "61309b9f1fcdba410f11a71358f0e2c858d380211ada38a2a4f88a21a89c8192",
+      "export_sha256": "61309b9f1fcdba410f11a71358f0e2c858d380211ada38a2a4f88a21a89c8192",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/test_daily_policy.py",
+      "source_sha256": "3ee4bbfe030aac8ff38fa619f88d2398538901bf0dd1f96f884539a897f2ab66",
+      "export_sha256": "3ee4bbfe030aac8ff38fa619f88d2398538901bf0dd1f96f884539a897f2ab66",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/test_report_day_policy.py",
+      "source_sha256": "119e1da6a7c307ed4fc9641afd9860d3964878639ff1d2ec10a4d56abc458f17",
+      "export_sha256": "119e1da6a7c307ed4fc9641afd9860d3964878639ff1d2ec10a4d56abc458f17",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/test_jev_dispatch.py",
+      "source_sha256": "a9422c6e30a92e530839dc4f193f60029351128b4fbb6b58bf31c6881b905638",
+      "export_sha256": "a9422c6e30a92e530839dc4f193f60029351128b4fbb6b58bf31c6881b905638",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/test_progress_notifications.py",
+      "source_sha256": "9b86260fc1d7f596be1063a790cc19fb7f3a64e485cb60972227c49bc84b6aa4",
+      "export_sha256": "9b86260fc1d7f596be1063a790cc19fb7f3a64e485cb60972227c49bc84b6aa4",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/test_result_notify.py",
+      "source_sha256": "36ceafa28ebd814edb3447f817fc720b2c46afc1bbd59e5c5343b0a137a45076",
+      "export_sha256": "36ceafa28ebd814edb3447f817fc720b2c46afc1bbd59e5c5343b0a137a45076",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/wincli-trial/continuous_trial.py",
+      "source_sha256": "46e68cd207dd128be4272cf5f7b01954f33921246f9da2111b730c9359089dea",
+      "export_sha256": "5c2ddde48a91a87830ca95e5657751ee3c0adf5b22539fa7b02c48898961ebec",
+      "adaptations": [
+        "Remove historical run fallback and standalone UI test launcher."
+      ]
+    },
+    {
+      "path": "asphalt-daily/wincli-trial/jev_desktop_trial.py",
+      "source_sha256": "03020a7ecbb6fb65b0d9c4d72db5395f9d2b6ed6f47cd14c712cad6bd433e790",
+      "export_sha256": "05f7c3933f23e4e668a00a4c8c00c3fb6afa43e1bb1a9bf5597a4e9fdc81969f",
+      "adaptations": [
+        "Remove standalone UI test launcher; execute through guarded worker only."
+      ]
+    },
+    {
+      "path": "asphalt-daily/wincli-trial/fast_clipboard.py",
+      "source_sha256": "88e18fe68fb18d0d218191d82723277b053ce23607f267f814850e7e619dd061",
+      "export_sha256": "88e18fe68fb18d0d218191d82723277b053ce23607f267f814850e7e619dd061",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/wincli-trial/test_fast_clipboard.py",
+      "source_sha256": "808f4297942a4998c08027193c0df70ed33dbb855b404a49ac96fe8f504adbe9",
+      "export_sha256": "808f4297942a4998c08027193c0df70ed33dbb855b404a49ac96fe8f504adbe9",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/wincli-trial/test_input_signal.py",
+      "source_sha256": "1c865941243b45b7925af71de4e8f8f062665c189b2e3843fab05adbc17214ce",
+      "export_sha256": "1c865941243b45b7925af71de4e8f8f062665c189b2e3843fab05adbc17214ce",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/wincli-trial/test_save_once.py",
+      "source_sha256": "89b166a6385ecd9a1c9ae05b60d521c3c673c526ada4ac7d3acc813774ee8a3d",
+      "export_sha256": "89b166a6385ecd9a1c9ae05b60d521c3c673c526ada4ac7d3acc813774ee8a3d",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/wincli-trial/test_schedule_time.py",
+      "source_sha256": "58847b0ff9e9950678bc8b35cc513bb51e8db7973049db39dc6b96dab2ee013f",
+      "export_sha256": "58847b0ff9e9950678bc8b35cc513bb51e8db7973049db39dc6b96dab2ee013f",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/wincli-trial/test_weekly_plan_scroll.py",
+      "source_sha256": "9c59f7cd8513d86d8f63a7887f09e7fed7651af84b48573f2eae18b8fd9efcac",
+      "export_sha256": "9c59f7cd8513d86d8f63a7887f09e7fed7651af84b48573f2eae18b8fd9efcac",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/wincli-trial/test_window_selection.py",
+      "source_sha256": "411f1b2c347f9600bf8583f81f2f779dd15c8f183369305fa10fb1a9ea24cee4",
+      "export_sha256": "411f1b2c347f9600bf8583f81f2f779dd15c8f183369305fa10fb1a9ea24cee4",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/ui-profiles/stable-v3.txt",
+      "source_sha256": "a302464e646787cf7caeb57f5d6398fbbb9736d20388cbfa973e812e19a2d759",
+      "export_sha256": "a302464e646787cf7caeb57f5d6398fbbb9736d20388cbfa973e812e19a2d759",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/ui-profiles/batch-v1.txt",
+      "source_sha256": "28d22de729479336adbcdc2f9bd34f8a2815c0e3f61ab534b9db40defb5dc36f",
+      "export_sha256": "28d22de729479336adbcdc2f9bd34f8a2815c0e3f61ab534b9db40defb5dc36f",
+      "adaptations": []
+    },
+    {
+      "path": "asphalt-daily/ui-profiles/batch-v2.txt",
+      "source_sha256": "932eb0231187a3ca6cce0b85ba937e3e9917984f22501f67d3eaee53cdac51be",
+      "export_sha256": "932eb0231187a3ca6cce0b85ba937e3e9917984f22501f67d3eaee53cdac51be",
+      "adaptations": []
+    }
+  ]
+}

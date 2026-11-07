@@ -1,0 +1,13 @@
+{
+  "mode": "paused",
+  "executor": "jev_local",
+  "enabled_at": "2100-01-01T00:00:00+08:00",
+  "stop_before_save": false,
+  "actual_send": true,
+  "schedule_time": "23:30",
+  "save_policy": "daily_once",
+  "allow_repeated_uploads": false,
+  "deduplicate_same_event": true,
+  "delete_existing_dingtalk_tasks": false,
+  "dingtalk_executable": "C:/path/to/installed/DingTalk.exe"
+}

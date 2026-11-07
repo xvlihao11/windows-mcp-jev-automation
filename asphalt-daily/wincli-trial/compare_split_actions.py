@@ -1,0 +1,11 @@
+"""Literal decision contract only; importing does not call a model."""
+criteria = {
+    'prepare_clipboard': '只从本地文件准备原格式剪贴板，不向钉钉粘贴。',
+    'paste_once': '仅适用于正文还没有粘贴的状态：聚焦已唯一定位的今日完成工作编辑器，执行一次Ctrl+V。到此结束本动作。此动作不复制文件、不滚动页面，绝不能用于已经粘贴过的正文。',
+    'scroll_page': '仅适用于正文已经确认粘贴完成的状态：把鼠标移到正文编辑器外侧、已定位的页面滚动区域，向下滚动以显示定时发送。此动作不碰剪贴板、不按Ctrl+V、不修改正文，不在编辑器里按Ctrl+End。',
+    'stop_success': '时间已正确读回，测试完成，立即停止，不保存。',
+    'stop_unknown': '已派发动作结果未知，立即停止报告，不重复操作。',
+    'stop_ambiguous': '目标未唯一确定，立即停止报告，不猜测位置。',
+}
+
+instructions = '只判断当前一个页面状态的下一步，不能把粘贴和滚动合成一个动作。顺序为：准备剪贴板完成→粘贴正文一次→确认粘贴结果→滚动页面→定时区域。尚未发出粘贴且剪贴板已就绪、编辑器唯一时，选paste_once。明确确认粘贴完成且页面仍在中段时，粘贴阶段已经结束，只能选scroll_page，不能再次选prepare_clipboard或paste_once。粘贴已发出但结果未知时选stop_unknown，不能重放粘贴。编辑器或滚动目标不唯一时选stop_ambiguous。时间已正确读回时选stop_success。本轮禁止最终保存。'
